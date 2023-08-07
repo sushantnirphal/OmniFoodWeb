@@ -16,6 +16,7 @@ html {
 .row {
   max-width: 1140px;
   margin: 0 auto;
+  padding:49px 0;
  
 }
 header {
@@ -409,4 +410,66 @@ textarea{
 }
 input[type=check-box]{
 margin: 10px 5px 10px 0;  
+}
+
+/* ============ Footer Section ============= */
+footer{
+  background-color: #333;
+  font-size: 80%;
+  margin-top: 50px;
+}
+
+.footer-nav{
+  list-style: none;
+  float: left;
+}
+.social-link{
+  list-style: none;
+  float: right;
+}
+
+.footer-nav li,
+.social-link li{
+  display: inline-block;
+  margin-right: 20px;
+}
+.footer-nav li:last-child,
+.social-link li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-link li a:link,
+.social-link li a:visited{
+  text-decoration: none;
+  border: 0;
+  color:#888;
+}
+footer-nav li a:hover,
+.footer-nav li a:hover{
+  color: #dddd;
+}
+.social-link li a:link,
+.social-link li a:visited{
+  font-size:160%;
+}
+.fb:hover{
+  color: #3b5998;
+}
+.google:hover{
+  color:#dd4b39;
+}
+.twitter:hover{
+  color:#00aced ;
+}
+.insta:hover{
+  color:#517fa4;
+}
+footer p{
+  color-scheme: #888;
+  text-align: center;
+  font-size: 90%;
+  margin-top: 20px;
 }
